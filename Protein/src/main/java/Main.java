@@ -69,12 +69,12 @@ public class Main {
                 sexe[0]);
 
         if (selectedValue.equals("Par ID")) {
-            System.out.println("id");
+         //   System.out.println("id");
             JOptionPane jopid = new JOptionPane();
             String id = jopid.showInputDialog(null, "Saisissez l'ID de la protéine recherchée", "Protein Searcher", JOptionPane.QUESTION_MESSAGE);
             prot = Utils.getProteinDetailsID(id);
         } else if (selectedValue.equals("Par Nom")) {
-            System.out.println("nom");
+         //   System.out.println("nom");
             JOptionPane jopnom = new JOptionPane();
             String name = jopnom.showInputDialog(null, "Saisissez le nom de la protéine recherchée", "Protein Searcher", JOptionPane.QUESTION_MESSAGE);
             prot = Utils.getProteinDetailsNAME(name);
@@ -85,8 +85,7 @@ public class Main {
 
 
 
-
-
+        
 
         // get Neighbors
         if (prot==null) {
@@ -98,17 +97,17 @@ public class Main {
         //System.out.println(protein.getEntry().getComments());
         //TimeUnit.SECONDS.sleep(100);
 
-        System.out.println(protein);
+       // System.out.println(protein);
         proteinList.add(protein.getEntry().getPrimaryUniProtAccession().getValue());
         neo4j.printNode(protein);
 
 
         protein.setNeighbors(Utils.getNeighborsDetails(protein,numberNeighbor));
-        System.out.println(protein.getNeighbors());
+       // System.out.println(protein.getNeighbors());
 
 
         protein.getNeighbors().forEach((k, v) -> {
-            System.out.format("key: %s, value: %f%n", k, v);
+           // System.out.format("key: %s, value: %f%n", k, v);
             proteinList.add(k.getEntry().getPrimaryUniProtAccession().getValue());
             neo4j.printNodeNeighbor(k);
             neo4j.printLinkNeighbor(protein,k,v);
@@ -125,10 +124,10 @@ public class Main {
         int i = 1;
         for (Protein p : protein.getNeighbors().keySet()){
             p.setNeighbors(Utils.getNeighborsDetails(p,numberNeighbor));
-            System.out.println("Family number : "+i+" - "+ p.getEntry().getUniProtId() );
-            System.out.println(p.getNeighbors());
+           // System.out.println("Family number : "+i+" - "+ p.getEntry().getUniProtId() );
+            //System.out.println(p.getNeighbors());
             p.getNeighbors().forEach((k, v) -> {
-            System.out.format("key: %s, value: %f", k, v);
+           // System.out.format("key: %s, value: %f", k, v);
                 if (!proteinList.contains(k.getEntry().getPrimaryUniProtAccession().getValue())){
                     neo4j.printNodeNeighborNeighbor(k);
                     neo4j.printLinkNeighborNew(p,k,v);
@@ -143,50 +142,50 @@ public class Main {
         
 
       
-        System.out.println("getdetails");
+     //   System.out.println("getdetails");
         
-        System.out.println(Utils.getNeighborsDetails(protein,numberNeighbor));
+     //   System.out.println(Utils.getNeighborsDetails(protein,numberNeighbor));
         
         HashMap<Protein,Float> neighboorsForLabel =  Filter(Utils.getNeighborsDetails(protein,numberNeighbor),teta);
         HashMap<Go,Float> annot = new HashMap<Go,Float> ();  
         
-        System.out.println("filtered");
+     //   System.out.println("filtered");
 
-        System.out.println(neighboorsForLabel);
+     //  System.out.println(neighboorsForLabel);
         
     	Iterator it = neighboorsForLabel.entrySet().iterator();
     	
         while (it.hasNext()) {
             Map.Entry pair = (Map.Entry)it.next();
             ArrayList<Go> L =  (ArrayList<Go>) ((Protein)pair.getKey()).getEntry().getGoTerms();
-			System.out.println("L");
-			System.out.println(L);
-			System.out.println("L.get(j)");
-			System.out.println(L.get(0));
+		//	System.out.println("L");
+		//	System.out.println(L);
+		//	System.out.println("L.get(j)");
+		//	System.out.println(L.get(0));
     		for (int j=0;j<L.size();j++) {
     			if (annot==null) {
-					System.out.println("first null");
-					System.out.println(pair.getValue());
+			//		System.out.println("first null");
+			//		System.out.println(pair.getValue());
 					annot.put(L.get(j), (Float) pair.getValue());
     			}else {
     				if (annot.containsKey(L.get(j))) {
-    					System.out.println("boucleif");
-    					System.out.println(pair.getValue());
-    					System.out.println(L.get(j));
+    			//		System.out.println("boucleif");
+    			//		System.out.println(pair.getValue());
+    			//		System.out.println(L.get(j));
     					Float k = (Float) annot.get(L.get(j)) + (Float) pair.getValue();
     					annot.remove(L.get(j));
     					annot.put(L.get(j),k);
     				} else {
-    					System.out.println("boucleelse");
-    					System.out.println(pair.getValue());
+    			//		System.out.println("boucleelse");
+    			//		System.out.println(pair.getValue());
     					annot.put(L.get(j), (Float) pair.getValue());
     				}
     			}
     		}
     	}
-        System.out.println("try");
+     //   System.out.println("try");
 
-        System.out.println(annot);
+     //   System.out.println(annot);
         Iterator ik = annot.entrySet().iterator();
         Go best = null;
         Float besta= (float) 0;
@@ -198,17 +197,19 @@ public class Main {
             }
     		
     	}
-        System.out.println(besta);
-        System.out.println(best);
+    //    System.out.println(besta);
+     //   System.out.println(best);
 
-        System.out.println(best.toString());
+     //   System.out.println(best.toString());
         
-        neo4j.printGoDomain(protein, best);
+        neo4j.printGoDomain(protein,annot);
+        neo4j.printGoDomain(protein,best);
 
-        System.out.println(proteinList);
+     //   System.out.println(proteinList);
         
-        System.out.println((protein.getEntry().getGoTerms()));
+      //  System.out.println((protein.getEntry().getGoTerms()));
 
+        JOptionPane.showMessageDialog(null, "La recherche est finie, vous pouvez aller voir le resultat sur localhost:7474 ! ");
         neo4j.close();
         }
 

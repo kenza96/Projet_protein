@@ -218,6 +218,26 @@ public class Neo4j implements AutoCloseable
         }
     }
 
+    public void printGoDomain(Protein protein,HashMap<Go,Float> best)
+    {
+
+        try ( Session session = driver.session() )
+        {
+            String greeting = session.writeTransaction( new TransactionWork<String>()
+            {
+                @Override
+                public String execute( Transaction tx )
+                {
+                    StatementResult result = tx.run( "MATCH (a:Protein{accession:\""+protein.getEntry().getPrimaryUniProtAccession().getValue()+"\"})" +
+                            "SET a.AllGoNumbers=\" " + best.toString()+ " \" ");
+
+                    return "";
+                }
+            } );
+            System.out.println( greeting );
+        }
+}
+    
     public void printGoDomain(Protein protein,Go best)
     {
 
@@ -229,7 +249,7 @@ public class Neo4j implements AutoCloseable
                 public String execute( Transaction tx )
                 {
                     StatementResult result = tx.run( "MATCH (a:Protein{accession:\""+protein.getEntry().getPrimaryUniProtAccession().getValue()+"\"})" +
-                            "SET a.GoNumber=\" " + best.toString()+ " \" ");
+                            "SET a.BestGoNumber=\" " + best.toString()+ " \" ");
 
                     return "";
                 }

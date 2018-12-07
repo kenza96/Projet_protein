@@ -39,6 +39,7 @@ public class Protein {
 
     @Override
     public String toString() {
+    	
         return "Protein{" +
                 "accession='" + entry.getPrimaryUniProtAccession().getValue() + '\'' +
                 ", name='" + entry.getUniProtId().getValue() + '\'' +
