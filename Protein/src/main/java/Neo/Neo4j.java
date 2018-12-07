@@ -1,6 +1,9 @@
 package Neo;
 
 import UniProt.Protein;
+import uk.ac.ebi.kraken.interfaces.common.Value;
+import uk.ac.ebi.kraken.interfaces.uniprot.dbx.go.Go;
+
 import org.neo4j.driver.v1.AuthTokens;
 import org.neo4j.driver.v1.Driver;
 import org.neo4j.driver.v1.GraphDatabase;
@@ -215,6 +218,24 @@ public class Neo4j implements AutoCloseable
         }
     }
 
+    public void printGoDomain(Protein protein,Go best)
+    {
 
+        try ( Session session = driver.session() )
+        {
+            String greeting = session.writeTransaction( new TransactionWork<String>()
+            {
+                @Override
+                public String execute( Transaction tx )
+                {
+                    StatementResult result = tx.run( "MATCH (a:Protein{accession:\""+protein.getEntry().getPrimaryUniProtAccession().getValue()+"\"})" +
+                            "SET a.GoNumber=\" " + best.toString()+ " \" ");
+
+                    return "";
+                }
+            } );
+            System.out.println( greeting );
+        }
+}
 
 }

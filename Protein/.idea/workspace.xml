@@ -2,89 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb21b473-fda2-41b4-99cd-d08917ccb131" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/maven/groupId/Protein/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/maven/groupId/Protein/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Neo/Neo4j$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Neo/Neo4j$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Neo/Neo4j$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Neo/Neo4j$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Neo/Neo4j$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Neo/Neo4j$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Neo/Neo4j$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Neo/Neo4j$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Neo/Neo4j$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Neo/Neo4j$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Neo/Neo4j$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Neo/Neo4j$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Neo/Neo4j$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Neo/Neo4j$7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Neo/Neo4j.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Neo/Neo4j.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/UniProt/BlastDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/UniProt/BlastDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/UniProt/InfoServicelExamples.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/UniProt/InfoServicelExamples.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/UniProt/PrintUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/UniProt/PrintUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/UniProt/Protein.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/UniProt/Protein.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/UniProt/TestUniProt$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/UniProt/TestUniProt$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/UniProt/TestUniProt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/UniProt/TestUniProt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/UniProt/UniParcRetrievalExamples.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/UniProt/UniParcRetrievalExamples.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/UniProt/UniParcSearchExamples$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/UniProt/UniParcSearchExamples$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/UniProt/UniParcSearchExamples$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/UniProt/UniParcSearchExamples$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/UniProt/UniParcSearchExamples$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/UniProt/UniParcSearchExamples$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/UniProt/UniParcSearchExamples$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/UniProt/UniParcSearchExamples$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/UniProt/UniParcSearchExamples$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/UniProt/UniParcSearchExamples$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/UniProt/UniParcSearchExamples$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/UniProt/UniParcSearchExamples$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/UniProt/UniParcSearchExamples$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/UniProt/UniParcSearchExamples$7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/UniProt/UniParcSearchExamples$SearchExecutor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/UniProt/UniParcSearchExamples$SearchExecutor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/UniProt/UniParcSearchExamples.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/UniProt/UniParcSearchExamples.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/UniProt/UniProtRetrievalExamples.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/UniProt/UniProtRetrievalExamples.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/UniProt/UniProtSearchExamples$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/UniProt/UniProtSearchExamples$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/UniProt/UniProtSearchExamples$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/UniProt/UniProtSearchExamples$10.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/UniProt/UniProtSearchExamples$11.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/UniProt/UniProtSearchExamples$11.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/UniProt/UniProtSearchExamples$12.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/UniProt/UniProtSearchExamples$12.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/UniProt/UniProtSearchExamples$13.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/UniProt/UniProtSearchExamples$13.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/UniProt/UniProtSearchExamples$14.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/UniProt/UniProtSearchExamples$14.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/UniProt/UniProtSearchExamples$15.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/UniProt/UniProtSearchExamples$15.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/UniProt/UniProtSearchExamples$16.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/UniProt/UniProtSearchExamples$16.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/UniProt/UniProtSearchExamples$17.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/UniProt/UniProtSearchExamples$17.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/UniProt/UniProtSearchExamples$18.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/UniProt/UniProtSearchExamples$18.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/UniProt/UniProtSearchExamples$19.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/UniProt/UniProtSearchExamples$19.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/UniProt/UniProtSearchExamples$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/UniProt/UniProtSearchExamples$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/UniProt/UniProtSearchExamples$20.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/UniProt/UniProtSearchExamples$20.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/UniProt/UniProtSearchExamples$21.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/UniProt/UniProtSearchExamples$21.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/UniProt/UniProtSearchExamples$22.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/UniProt/UniProtSearchExamples$22.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/UniProt/UniProtSearchExamples$23.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/UniProt/UniProtSearchExamples$23.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/UniProt/UniProtSearchExamples$24.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/UniProt/UniProtSearchExamples$24.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/UniProt/UniProtSearchExamples$25.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/UniProt/UniProtSearchExamples$25.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/UniProt/UniProtSearchExamples$26.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/UniProt/UniProtSearchExamples$26.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/UniProt/UniProtSearchExamples$27.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/UniProt/UniProtSearchExamples$27.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/UniProt/UniProtSearchExamples$28.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/UniProt/UniProtSearchExamples$28.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/UniProt/UniProtSearchExamples$29.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/UniProt/UniProtSearchExamples$29.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/UniProt/UniProtSearchExamples$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/UniProt/UniProtSearchExamples$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/UniProt/UniProtSearchExamples$30.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/UniProt/UniProtSearchExamples$30.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/UniProt/UniProtSearchExamples$31.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/UniProt/UniProtSearchExamples$31.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/UniProt/UniProtSearchExamples$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/UniProt/UniProtSearchExamples$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/UniProt/UniProtSearchExamples$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/UniProt/UniProtSearchExamples$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/UniProt/UniProtSearchExamples$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/UniProt/UniProtSearchExamples$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/UniProt/UniProtSearchExamples$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/UniProt/UniProtSearchExamples$7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/UniProt/UniProtSearchExamples$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/UniProt/UniProtSearchExamples$8.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/UniProt/UniProtSearchExamples$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/UniProt/UniProtSearchExamples$9.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/UniProt/UniProtSearchExamples$SearchExecutor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/UniProt/UniProtSearchExamples$SearchExecutor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/UniProt/UniProtSearchExamples.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/UniProt/UniProtSearchExamples.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/UniProt/UniRefRetrievalExamples.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/UniProt/UniRefRetrievalExamples.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/UniProt/UniRefSearchExamples$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/UniProt/UniRefSearchExamples$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/UniProt/UniRefSearchExamples$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/UniProt/UniRefSearchExamples$10.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/UniProt/UniRefSearchExamples$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/UniProt/UniRefSearchExamples$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/UniProt/UniRefSearchExamples$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/UniProt/UniRefSearchExamples$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/UniProt/UniRefSearchExamples$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/UniProt/UniRefSearchExamples$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/UniProt/UniRefSearchExamples$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/UniProt/UniRefSearchExamples$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/UniProt/UniRefSearchExamples$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/UniProt/UniRefSearchExamples$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/UniProt/UniRefSearchExamples$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/UniProt/UniRefSearchExamples$7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/UniProt/UniRefSearchExamples$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/UniProt/UniRefSearchExamples$8.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/UniProt/UniRefSearchExamples$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/UniProt/UniRefSearchExamples$9.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/UniProt/UniRefSearchExamples$SearchExecutor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/UniProt/UniRefSearchExamples$SearchExecutor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/UniProt/UniRefSearchExamples.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/UniProt/UniRefSearchExamples.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/UniProt/Utils$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/UniProt/Utils$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/UniProt/Utils$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/UniProt/Utils$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/UniProt/Utils$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/UniProt/Utils$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/UniProt/Utils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/UniProt/Utils.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -99,8 +18,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-693">
-              <caret line="66" column="45" lean-forward="true" selection-start-line="66" selection-start-column="45" selection-end-line="66" selection-end-column="45" />
+            <state relative-caret-position="51">
+              <caret line="80" column="2" selection-start-line="80" selection-start-column="2" selection-end-line="80" selection-end-column="2" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -111,7 +30,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/UniProt/UniProtSearchExamples.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3293">
+            <state relative-caret-position="153">
               <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -123,8 +42,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Neo/Neo4j.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="191" column="30" lean-forward="true" selection-start-line="191" selection-start-column="30" selection-end-line="191" selection-end-column="30" />
+            <state relative-caret-position="3060">
+              <caret line="191" column="30" selection-start-line="191" selection-start-column="30" selection-end-line="191" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -135,7 +54,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/UniProt/TestUniProt.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
+            <state relative-caret-position="68">
               <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -147,8 +66,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/UniProt/Utils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
-              <caret line="63" column="33" lean-forward="true" selection-start-line="63" selection-start-column="33" selection-end-line="63" selection-end-column="33" />
+            <state relative-caret-position="833">
+              <caret line="63" column="33" selection-start-line="63" selection-start-column="33" selection-end-line="63" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -159,7 +78,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/UniProt/UniProtRetrievalExamples.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1623">
+            <state relative-caret-position="2227">
               <caret line="153" column="31" selection-start-line="153" selection-start-column="31" selection-end-line="153" selection-end-column="31" />
             </state>
           </provider>
@@ -168,7 +87,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/UniProt/UniRefRetrievalExamples.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
+            <state relative-caret-position="68">
               <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
             </state>
           </provider>
@@ -177,7 +96,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/UniProt/UniRefSearchExamples.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
+            <state relative-caret-position="68">
               <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
             </state>
           </provider>
@@ -186,7 +105,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/UniProt/UniParcRetrievalExamples.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
+            <state relative-caret-position="68">
               <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
             </state>
           </provider>
@@ -195,7 +114,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/UniProt/UniParcSearchExamples.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8">
+            <state relative-caret-position="68">
               <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
             </state>
           </provider>
@@ -289,9 +208,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="width" value="977" />
-    <option name="height" value="1038" />
+    <option name="x" value="-10" />
+    <option name="width" value="979" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -329,7 +248,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -376,6 +294,7 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -474,9 +393,9 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.HelloWorldExample" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.Neo4j (1)" />
-      <item itemvalue="Application.HelloWorldExample" />
       <item itemvalue="Application.Neo4j (2)" />
       <item itemvalue="Application.UniProtSearchExamples" />
     </list>
@@ -522,7 +441,7 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20872483" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21409395" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -541,7 +460,6 @@
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32907802" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32152975" />
-      <window_info anchor="right" id="Maven" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -552,6 +470,7 @@
       <window_info anchor="right" id="Bean Validation" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Maven Projects" order="9" />
+      <window_info anchor="right" id="Maven" order="10" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -633,65 +552,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/UniProt/TestUniProt.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        <state relative-caret-position="51">
+          <caret line="80" column="2" selection-start-line="80" selection-start-column="2" selection-end-line="80" selection-end-column="2" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/UniProt/UniParcRetrievalExamples.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/UniProt/UniParcSearchExamples.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/UniProt/UniProtSearchExamples.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3293">
+        <state relative-caret-position="153">
           <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/UniProt/UniProtRetrievalExamples.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1623">
-          <caret line="153" column="31" selection-start-line="153" selection-start-column="31" selection-end-line="153" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/UniProt/UniRefRetrievalExamples.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/UniProt/UniRefSearchExamples.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/UniProt/Utils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="63" column="33" lean-forward="true" selection-start-line="63" selection-start-column="33" selection-end-line="63" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -700,21 +574,66 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Neo/Neo4j.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="191" column="30" lean-forward="true" selection-start-line="191" selection-start-column="30" selection-end-line="191" selection-end-column="30" />
+        <state relative-caret-position="3060">
+          <caret line="191" column="30" selection-start-line="191" selection-start-column="30" selection-end-line="191" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/UniProt/TestUniProt.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-693">
-          <caret line="66" column="45" lean-forward="true" selection-start-line="66" selection-start-column="45" selection-end-line="66" selection-end-column="45" />
+        <state relative-caret-position="68">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/UniProt/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="63" column="33" selection-start-line="63" selection-start-column="33" selection-end-line="63" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/UniProt/UniProtRetrievalExamples.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2227">
+          <caret line="153" column="31" selection-start-line="153" selection-start-column="31" selection-end-line="153" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/UniProt/UniRefRetrievalExamples.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/UniProt/UniRefSearchExamples.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/UniProt/UniParcRetrievalExamples.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/UniProt/UniParcSearchExamples.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
         </state>
       </provider>
     </entry>

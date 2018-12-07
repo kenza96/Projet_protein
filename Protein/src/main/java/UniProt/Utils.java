@@ -105,6 +105,10 @@ public class Utils {
                 prot.getNeighbors().put(p, (float)i/j);
             }
         }
+        
+        
+        
+        
         uniProtService.stop();
         return prot.getNeighbors();
     }

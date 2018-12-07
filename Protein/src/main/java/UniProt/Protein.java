@@ -54,7 +54,7 @@ public class Protein {
         List<Field> fullNameFields = name.getFieldsByType(FieldType.FULL);
 
         String nameText = "";
-
+        
         if (!fullNameFields.isEmpty()) {
             Field fullNameField = fullNameFields.get(0);
             nameText += fullNameField.getValue();
